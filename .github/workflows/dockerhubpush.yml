@@ -17,16 +17,4 @@ jobs:
         with:
           push: true
           tags: manojsinghceh/owasp-vulnerableapp-php:latest
-          jobs:
-  Docker push:
-    runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    
-    # Setting up app locally
-    - name: Set up local image
-      continue-on-error: true
-      run: |
-         docker pull ghcr.io/devopscicd17/vulnerableapp-php:main
-          docker image ls
-	  docker container run ghcr.io/devopscicd17/vulnerableapp-php:main
+         

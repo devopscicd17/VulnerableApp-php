@@ -27,6 +27,6 @@ jobs:
     - name: Set up local image
       continue-on-error: true
       run: |
-        docker pull ghcr.io/devopscicd17/vulnerableapp-php:main
-        docker image ls
-	docker container run ghcr.io/devopscicd17/vulnerableapp-php:main
+         docker pull ghcr.io/devopscicd17/vulnerableapp-php:main
+          docker image ls
+	  docker container run ghcr.io/devopscicd17/vulnerableapp-php:main
